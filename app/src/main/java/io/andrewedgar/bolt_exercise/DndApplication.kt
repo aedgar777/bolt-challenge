@@ -9,18 +9,15 @@ import io.andrewedgar.bolt_exercise.di.viewModelModule
 import io.andrewedgar.bolt_exercise.di.repositoryModule
 import org.koin.core.component.KoinComponent
 
-class FetchApplication: Application(), KoinComponent {
-
+class DndApplication: Application(), KoinComponent {
 
     override fun onCreate() {
         super.onCreate()
 
         startKoin {
-            androidContext(this@FetchApplication)
+            androidContext(this@DndApplication)
             modules(networkModule, repositoryModule, interactorModule, viewModelModule)
         }
 
-
     }
-
 }

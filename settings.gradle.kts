@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "fetch-exercise"
+rootProject.name = "bolt-exercise"
 include(":app")
  

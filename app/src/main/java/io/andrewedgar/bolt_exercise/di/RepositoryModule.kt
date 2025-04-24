@@ -1,6 +1,6 @@
 package io.andrewedgar.bolt_exercise.di
 
-import io.andrewedgar.bolt_exercise.data.DndRepositoryImpl
+import io.andrewedgar.bolt_exercise.datatransfer.DndRepositoryImpl
 import io.andrewedgar.bolt_exercise.domain.DndRepository
 import org.koin.dsl.module
 

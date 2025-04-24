@@ -17,7 +17,6 @@ import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 private const val TIME_OUT = 6000
 
 val networkModule = module {
-    factory<DndApi> { DndKtorApiImpl(get())}
 
     single {
         HttpClient(Android) {
@@ -45,4 +44,5 @@ val networkModule = module {
             }
         }
     }
+    factory<DndApi> { DndKtorApiImpl(get())}
 }

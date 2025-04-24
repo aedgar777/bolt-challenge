@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "io.andrewedgar.fetch_exercise"
+    namespace = "io.andrewedgar.dnd_exercise"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "io.andrewedgar.fetch_exercise"
+        applicationId = "io.andrewedgar.dnd_exercise"
         minSdk = 34
         targetSdk = 35
         versionCode = 1
@@ -46,6 +46,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.koin.androidx.compose)
     implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.navigation.compose)
     implementation(libs.ktor.client.content.negotiation)
     implementation(libs.ktor.serialization.kotlinx.json)
     implementation(libs.androidx.ui)
@@ -58,9 +59,6 @@ dependencies {
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.koin.android)
-    implementation(libs.androidx.room.runtime)
-    implementation(libs.androidx.room.ktx)
-    ksp(libs.androidx.room.compiler)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     testImplementation(libs.mockito.core)
