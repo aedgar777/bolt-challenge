@@ -9,7 +9,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import io.andrewedgar.bolt_exercise.ui.viewmodels.ClassListUiState
 
-
 @Composable
 fun ClassScreen(
     uiState: ClassListUiState

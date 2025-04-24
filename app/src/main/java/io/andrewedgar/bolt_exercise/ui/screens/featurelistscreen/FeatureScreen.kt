@@ -7,9 +7,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import io.andrewedgar.bolt_exercise.ui.screens.monsterscreen.MonsterListView
 import io.andrewedgar.bolt_exercise.ui.viewmodels.FeatureListUiState
-import io.andrewedgar.bolt_exercise.ui.viewmodels.MonsterListUiState
 
 
 @Composable

@@ -61,11 +61,5 @@ dependencies {
     implementation(libs.koin.android)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    testImplementation(libs.mockito.core)
-    testImplementation(libs.mockito.kotlin)
-    testImplementation(libs.kotlinx.coroutines.test)
-    testImplementation(libs.koin.test.junit5)
-    testImplementation(libs.junit)
-    testImplementation(libs.insert.koin.koin.test.junit5)
 
 }
